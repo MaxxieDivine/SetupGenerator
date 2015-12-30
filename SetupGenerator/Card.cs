@@ -28,8 +28,8 @@ namespace SetupGenerator
 
         public string Type
         {
-            get { return this.cardCost; }
-            set { this.cardCost = value; }
+            get { return this.cardType; }
+            set { this.cardType = value; }
         }
 
         public string Text
@@ -40,8 +40,8 @@ namespace SetupGenerator
 
         public string Set
         {
-            get { return this.cardText; }
-            set { this.cardText = value; }
+            get { return this.cardSet; }
+            set { this.cardSet = value; }
         }
     }
 }
